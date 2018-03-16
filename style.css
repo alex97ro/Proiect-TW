@@ -37,3 +37,15 @@ div{
 p{
 	font-family: "Times New Roman", Times, serif;
 }
+form{
+margin:0 auto;
+margin-top: 20px;
+}
+
+label{
+	color: white;
+	display: inline-block;
+	margin-left: 18px;
+	padding-top: 10px;
+	font-size: 14px;
+}
