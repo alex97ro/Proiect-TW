@@ -34,6 +34,18 @@ div{
 	height: 300px;
 	font-size: 50;
 }
+.active{
+		background-color: #556B2F;
+}
 p{
 	font-family: "Times New Roman", Times, serif;
+}
+.register
+{
+	border-radius: 25px;
+	background-color: #556B2F;
+	height: 500px;
+	width:500px;
+	font-size: 50;
+	color:white;
 }
