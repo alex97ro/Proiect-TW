@@ -30,10 +30,9 @@ li a:hover {
 }
 div{
 	border-radius: 25px;
-	background-color: #333;
+	background-color: #556B2F;
 	height: 300px;
 	font-size: 50;
-	color:white;
 }
 .active{
 		background-color: #556B2F;
