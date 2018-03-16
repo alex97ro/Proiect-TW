@@ -30,23 +30,25 @@ li a:hover {
 }
 div{
 	border-radius: 25px;
-	background-color: #333;
+	background-color: #556B2F;
 	height: 300px;
 	font-size: 50;
-	color:white;
-}
-.active{
-		background-color: #556B2F;
 }
 p{
 	font-family: "Times New Roman", Times, serif;
 }
-.register
-{
-	border-radius: 25px;
-	background-color: #556B2F;
-	height: 500px;
-	width:500px;
-	font-size: 50;
-	color:white;
+form{
+margin:0 auto;
+margin-top: 20px;
+}
+
+label{
+	color: white;
+	display: inline-block;
+	margin-left: 18px;
+	padding-top: 10px;
+	font-size: 14px;
+}
+.active{
+background-color: #556B2F;
 }
