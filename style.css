@@ -5,14 +5,17 @@ background-size: cover;
 background-position: center center;
 }
 ul {
+border-radius: 25px;
 list-style-type: none;
 margin:0;
 padding:0;
 overflow:hidden;
-background-color:#333;	
+background-color:#333;
+font-size: 14;	
 }
 li{
 	float:left;
+
 }
 li a {
 	display: block;
@@ -20,7 +23,17 @@ li a {
 	text-align: center;
 	padding:20px 20px 20px 20px;
 	text-decoration: none;
+	text-shadow: 1px 1px #999966;
 }
 li a:hover {
-	background-color: #111;
+	background-color: #556B2F;
+}
+div{
+	border-radius: 25px;
+	background-color: #556B2F;
+	height: 300px;
+	font-size: 50;
+}
+p{
+	font-family: "Times New Roman", Times, serif;
 }
