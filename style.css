@@ -52,7 +52,12 @@ label{
 .active{
 background-color: #556B2F;
 }
-
+.hidden{
+	display:none;
+}
+.hidden:hover .actions{
+	display:block;
+}
 .login{
 	width: 100%;   
 	height: 100px;   
