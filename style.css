@@ -4,16 +4,17 @@
 }
 body {
 	font-family: DulApFont;
-	font-size: 18;
+	font-size: 25;
 background-image:url("background_index2.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
-padding: 20;
+padding: 7;
 color: white;
 }
+
 ul {
-opacity: 0.5;
+opacity: 0.6;
 border-radius: 10px;
 list-style-type: none;
 margin:0;
@@ -25,6 +26,7 @@ transition: 2s;
 
 ul:hover{
 	opacity:1;
+	transition: 2s;
 }
 li{
 	float:left;
@@ -47,7 +49,7 @@ div{
 	height: 400px;
 	width: 600px;
 	font-size: 50;
-	opacity:0.65;
+	opacity:0.6;
 	margin:auto;
 	transition:2s;
 }
