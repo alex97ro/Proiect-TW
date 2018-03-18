@@ -68,6 +68,7 @@ label{
 }
 .dulap{
 	padding:20px;
+	overflow-y: scroll;
 }
 .dulap li{
 	display: block;
