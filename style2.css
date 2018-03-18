@@ -46,17 +46,14 @@ li a:hover {
 div{
 	border-radius: 5px;
 	background-color: #556B2F;
-	height: 400px;
-	width: 600px;
+	height:500px;
+	width: 1300px;
 	font-size: 50;
-	opacity:0.6;
+	opacity:0.8;
 	margin:auto;
 	transition:2s;
 }
-div:hover{
-	transition:3s;
-	opacity:1;
-}
+
 form{
 margin:0 auto;
 margin-top: 20px;
@@ -68,6 +65,20 @@ label{
 	margin-left: 18px;
 	padding-top: 10px;
 	font-size: 14px;
+}
+
+.dulap_li{
+float:left;
+display:block;
+clear: left;
+}
+
+.dulap_ul{
+width:100px;
+}
+
+.dulap_li:hover{
+	background-color: #556B2F;
 }
 .active{
 background-color: #556B2F;
