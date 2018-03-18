@@ -67,43 +67,26 @@ label{
 	font-size: 14px;
 }
 
-.dulap_li{
-float:left;
-display:block;
-clear: left;
+.dulap li{
+	display: block;
+	float:left;
+	clear:left;
 }
-
-.dulap_ul{
-width:100px;
-}
-
-.dulap_li:hover{
+.dulap li:hover{
 	background-color: #556B2F;
+} 
+.dulap ul{
+	display: none;
 }
+.dulap li:hover ul{
+display: block;
+}
+
+.dulap li ul li{
+float:left;
+clear:none;
+}
+
 .active{
 background-color: #556B2F;
-}
-.hidden{
-	display:none;
-}
-.hidden:hover .actions{
-	display:block;
-}
-
-.register{
-	color:white;
-	border-radius: 5px;
-	background-color: #556B2F;
-	height: 400px;
-	font-size: 50;
-	width: 21%;
-	margin: auto;
-}
-
-
-.link{
-	font-size: 30px;
-}
-.about{
-	font-size: 40px;
 }
