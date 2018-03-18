@@ -46,8 +46,8 @@ li a:hover {
 div{
 	border-radius: 5px;
 	background-color: #556B2F;
-	height:500px;
-	width: 1300px;
+	height:300px;
+	width: 300px;
 	font-size: 50;
 	opacity:0.8;
 	margin:auto;
@@ -66,25 +66,43 @@ label{
 	padding-top: 10px;
 	font-size: 14px;
 }
-
+.dulap{
+	padding:20px;
+}
 .dulap li{
 	display: block;
 	float:left;
 	clear:left;
+	border-radius: 10px;
 }
 .dulap li:hover{
 	background-color: #556B2F;
 } 
 .dulap ul{
 	display: none;
+	width: 300px;
+	padding:20px;
 }
 .dulap li:hover ul{
 display: block;
 }
 
+.dulap li ul li div{
+	display: none;
+	background-color: #1f1f14;
+
+}
+.dulap li ul li:hover div{
+display:block;
+}
+
 .dulap li ul li{
 float:left;
-clear:none;
+clear:left;
+}
+
+.dulap li ul{
+	background-color: #808000;
 }
 
 .active{
