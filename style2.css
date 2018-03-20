@@ -4,12 +4,12 @@
 }
 body {
 	font-family: DulApFont;
-	font-size: 25;
+	font-size: 25px;
 background-image:url("background_index2.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
-padding: 7;
+padding: 7px;
 color: white;
 }
 
@@ -18,7 +18,7 @@ opacity: 0.7;
 border-radius: 10px;
 list-style-type: none;
 margin:0;
-padding:2;
+padding:2px;
 overflow:hidden;
 background-color:#1f1f14;
 transition: 2s;
@@ -48,7 +48,7 @@ div{
 	background-color: #556B2F;
 	height:300px;
 	width: 300px;
-	font-size: 50;
+	font-size: 50px;
 	opacity:0.8;
 	margin:auto;
 	transition:2s;

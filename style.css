@@ -4,12 +4,12 @@
 }
 body {
 	font-family: DulApFont;
-	font-size: 25;
+	font-size: 25px;
 background-image:url("background_index2.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
-padding: 7;
+padding: 7px;
 color: white;
 }
 
@@ -18,7 +18,7 @@ opacity: 0.7;
 border-radius: 10px;
 list-style-type: none;
 margin:0;
-padding:2;
+padding:2px;
 overflow:hidden;
 background-color:#1f1f14;
 }
@@ -47,7 +47,7 @@ div{
 	background-color: #556B2F;
 	height: 400px;
 	width: 600px;
-	font-size: 50;
+	font-size: 50px;
 	opacity:0.6;
 	margin:auto;
 	transition:2s;
@@ -84,7 +84,7 @@ background-color: #556B2F;
 	border-radius: 5px;
 	background-color: #556B2F;
 	height: 400px;
-	font-size: 50;
+	font-size: 50px;
 	width: 21%;
 	margin: auto;
 }
@@ -95,4 +95,8 @@ background-color: #556B2F;
 }
 .about{
 	font-size: 40px;
+}
+
+.allignCenter{
+	text-align: center;
 }
