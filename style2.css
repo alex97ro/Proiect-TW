@@ -52,6 +52,7 @@ div{
 	opacity:0.8;
 	margin:auto;
 	transition:2s;
+	overflow: auto;
 }
 
 form{
@@ -68,13 +69,13 @@ label{
 }
 .dulap{
 	padding:20px;
-	overflow-y: scroll;
 }
 .dulap li{
 	display: block;
 	float:left;
 	clear:left;
 	border-radius: 10px;
+	padding: 5px 10px;
 }
 .dulap li:hover{
 	background-color: #556B2F;
@@ -108,4 +109,18 @@ clear:left;
 
 .active{
 background-color: #556B2F;
+}
+img{
+	float: left;
+	width:50px;
+	height:50px;
+	border:2px solid transparent;
+	transition: all 1s ease;
+	display: inline-block;
+}
+img:hover
+{
+	border:2px solid red;
+	width:60px;
+	height:60px;
 }
